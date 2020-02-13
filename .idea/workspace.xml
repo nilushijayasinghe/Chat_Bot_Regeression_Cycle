@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chat_Bot_Regeression_Cycle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/CreateAnAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionResetButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/DeleteanAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/searchintents/VerifyDeleteIntent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -350,6 +320,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580448261257</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is my 1st commit of chat_bot Regression project">
+      <created>1581591624894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581591624894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -402,8 +380,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32879582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -415,6 +393,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is my 1st commit of chat_bot Regression project" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is my 1st commit of chat_bot Regression project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">

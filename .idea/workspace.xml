@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
@@ -96,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
       </list>
     </option>
   </component>
@@ -207,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InvalidUserNameandInvalidpw.invalidUserNameandValidpw">
+  <component name="RunManager" selected="TestNG.InvalidUserNameandValidpw">
     <configuration name="InvalidUserNameandInvalidpw.invalidUserNameandValidpw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
@@ -226,7 +227,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InvalidUserNameandValidpw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
@@ -235,7 +236,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.login.chatbot" />
-      <option name="MAIN_CLASS_NAME" value="com.login.chatbot.SuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.login.chatbot.InvalidUserNameandValidpw" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -291,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InvalidUserNameandValidpw" />
         <item itemvalue="TestNG.InvalidUserNameandInvalidpw.invalidUserNameandValidpw" />
         <item itemvalue="TestNG.VerifySearchActionbyName.verifySearchActionbyName" />
         <item itemvalue="TestNG.VerifyAddIntentwithQP.verifyAddIntentwithQP" />
         <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
-        <item itemvalue="TestNG.SuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -321,9 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuccessfulLogin - 2020.02.17 at 11h 43m 20s.xml">
-      <configuration name="SuccessfulLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SuccessfulLogin - 2020.02.17 at 11h 44m 34s.xml">
       <configuration name="SuccessfulLogin" configurationId="TestNG" />
     </history-entry>
@@ -351,9 +349,13 @@
     <history-entry file="InvalidUserNameandInvalidpw_invalidUserNameandValidpw - 2020.02.17 at 14h 06m 51s.xml">
       <configuration name="InvalidUserNameandInvalidpw.invalidUserNameandValidpw" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="InvalidUserNameandValidpw - 2020.02.17 at 14h 26m 57s.xml">
+      <configuration name="InvalidUserNameandValidpw" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22572039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -364,14 +366,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40503672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40503672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33892968" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33892968" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.44596013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -536,26 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -600,20 +582,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

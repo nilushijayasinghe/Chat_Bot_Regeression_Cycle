@@ -66,6 +66,8 @@ public class VerifyAddIntentwithQP {
 
         driver.findElement(By.xpath("//li[@id='cmpAutoActionResponse:autoActionResponse_1']")).click();
 
+        Thread.sleep(3000);
+
         driver.findElement(By.xpath("//span[contains(text(),'Save')]")).click();
 
         Thread.sleep(3000);

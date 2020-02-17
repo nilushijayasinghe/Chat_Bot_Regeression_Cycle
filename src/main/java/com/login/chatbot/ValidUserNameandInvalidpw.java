@@ -3,6 +3,7 @@ package com.login.chatbot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -19,6 +20,8 @@ public class ValidUserNameandInvalidpw {
     public void setUp() throws Exception{
 
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

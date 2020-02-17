@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -30,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="195">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="125" />
             </state>
           </provider>
         </entry>
@@ -179,16 +189,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chat_Bot_Regeression_Cycle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chat_Bot_Regeression_Cycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="addintents" type="462c0819:PsiDirectoryNode" />
+              <item name="addactions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,11 +203,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/libs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
@@ -222,7 +223,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyActionNameMandatory.verifyanExistingGroupSelecting">
+  <component name="RunManager" selected="TestNG.ActionNameMandatory">
+    <configuration name="ActionNameMandatory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chat_Bot_Regeression_Cycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
+      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.ActionNameMandatory" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifyActionNameMandatory.verifyanExistingGroupSelecting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
@@ -235,40 +253,6 @@
       <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyActionNameMandatory" />
       <option name="METHOD_NAME" value="verifyanExistingGroupSelecting" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyQuickIntentCreation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chat_Bot_Regeression_Cycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
-      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyQuickIntentCreation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyQuickIntentCreation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chat_Bot_Regeression_Cycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
-      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyQuickIntentCreation" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -311,13 +295,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chat_Bot_Regeression_Cycle" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionNameMandatory" />
+        <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
         <item itemvalue="TestNG.VerifyActionNameMandatory.verifyanExistingGroupSelecting" />
         <item itemvalue="TestNG.VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" />
         <item itemvalue="TestNG.VerifyQuickIntentCreation.verifyQuickIntentCreation" />
-        <item itemvalue="TestNG.VerifyQuickIntentCreation (1)" />
-        <item itemvalue="TestNG.VerifyQuickIntentCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +337,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VerifyQuickIntentCreation_verifyQuickIntentCreation - 2020.02.06 at 11h 46m 02s.xml">
-      <configuration name="VerifyQuickIntentCreation.verifyQuickIntentCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.02.06 at 13h 39m 00s.xml">
-      <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.02.06 at 13h 39m 35s.xml">
-      <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.02.06 at 13h 40m 11s.xml">
       <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
     </history-entry>
@@ -373,11 +358,20 @@
     <history-entry file="VerifyActionNameMandatory_verifyanExistingGroupSelecting - 2020.02.06 at 13h 56m 00s.xml">
       <configuration name="VerifyActionNameMandatory.verifyanExistingGroupSelecting" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.14 at 12h 29m 05s.xml">
+      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ActionNameMandatory - 2020.02.17 at 09h 10m 51s.xml">
+      <configuration name="ActionNameMandatory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ActionNameMandatory - 2020.02.17 at 09h 12m 05s.xml">
+      <configuration name="ActionNameMandatory" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,17 +379,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41884816" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40608606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33909288" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32879582" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="43" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -595,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -622,17 +599,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="125" />
         </state>
       </provider>
     </entry>

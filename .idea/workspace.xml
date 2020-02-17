@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="405">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -39,20 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="488">
               <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -207,11 +194,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/libs" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
@@ -227,7 +215,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAnAction.createAnAction">
+  <component name="RunManager" selected="TestNG.CreateAnAction">
+    <configuration name="CreateAnAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chat_Bot_Regeression_Cycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
+      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.CreateAnAction" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAnAction.createAnAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
@@ -239,24 +244,6 @@
       <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
       <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.CreateAnAction" />
       <option name="METHOD_NAME" value="createAnAction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvalidUserNameandInvalidpw.invalidUserNameandValidpw" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chat_Bot_Regeression_Cycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.login.chatbot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.login.chatbot" />
-      <option name="MAIN_CLASS_NAME" value="com.login.chatbot.InvalidUserNameandInvalidpw" />
-      <option name="METHOD_NAME" value="invalidUserNameandValidpw" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -299,18 +286,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifySearchActionbyName.verifySearchActionbyName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.actions.chatbot.searchactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.actions.chatbot.searchactions" />
-      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.searchactions.VerifySearchActionbyName" />
-      <option name="METHOD_NAME" value="verifySearchActionbyName" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -319,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAnAction" />
+        <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
         <item itemvalue="TestNG.CreateAnAction.createAnAction" />
         <item itemvalue="TestNG.SuccessfulLogin.successfulLogin" />
         <item itemvalue="TestNG.InvalidUserNameandValidpw" />
-        <item itemvalue="TestNG.InvalidUserNameandInvalidpw.invalidUserNameandValidpw" />
-        <item itemvalue="TestNG.VerifySearchActionbyName.verifySearchActionbyName" />
       </list>
     </recent_temporary>
   </component>
@@ -615,10 +594,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -632,17 +614,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="488">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

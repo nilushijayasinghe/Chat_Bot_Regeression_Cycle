@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -26,10 +27,9 @@ public class CreateAnAction {
     public void setUp() throws Exception{
 
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
-        driver = new ChromeDriver();
-        //System.setProperty("webdriver.gecko.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/geckodriver");
-        //WebDriver driver = new FirefoxDriver();
-
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10 ,TimeUnit.SECONDS);
     }
@@ -60,8 +60,6 @@ public class CreateAnAction {
         driver.findElement(By.xpath("//textarea[@id='txtPattern']")).sendKeys("Lake nona is a large set of residence area in florida");
 
         driver.findElement(By.xpath("//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
-
-        //driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 
         Thread.sleep(3000);
 

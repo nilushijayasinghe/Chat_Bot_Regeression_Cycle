@@ -41,8 +41,8 @@ public class InvalidUserNameandInvalidpw {
         assertEquals(driver.findElement(By.xpath("//span[@class='ui-messages-warn-summary']")).getText(),"Invalid User name");
     }
 
-    @AfterClass(alwaysRun = true)
-    public void tearDown() throws Exception{
-        driver.quit();
-    }
+    //@AfterClass(alwaysRun = true)
+    //public void tearDown() throws Exception{
+        //driver.quit();
+
 }

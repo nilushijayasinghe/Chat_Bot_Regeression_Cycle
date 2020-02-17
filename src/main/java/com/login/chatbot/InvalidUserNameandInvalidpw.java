@@ -19,9 +19,9 @@ public class InvalidUserNameandInvalidpw {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception{
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
-        //ChromeOptions options = new ChromeOptions();
-        //options.addArguments("headless");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
     }
 

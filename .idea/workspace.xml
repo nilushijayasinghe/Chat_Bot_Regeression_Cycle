@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandInvalidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandInvalidpw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandValidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandValidpw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/SuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/SuccessfulLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/ValidUserNameandInvalidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/ValidUserNameandInvalidpw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="74" column="40" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="70" />
+            <state relative-caret-position="405">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,18 +53,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -108,13 +90,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -194,26 +176,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="searchactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chat_Bot_Regeression_Cycle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chat_Bot_Regeression_Cycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chat_Bot_Regeression_Cycle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chat_Bot_Regeression_Cycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="addintents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,18 +208,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifySearchActionbyName.verifySearchActionbyName">
-    <configuration name="ActionNameMandatory" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.InvalidUserNameandInvalidpw.invalidUserNameandValidpw">
+    <configuration name="InvalidUserNameandInvalidpw.invalidUserNameandValidpw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="PATTERN" value="com.login.chatbot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
-      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.ActionNameMandatory" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.login.chatbot" />
+      <option name="MAIN_CLASS_NAME" value="com.login.chatbot.InvalidUserNameandInvalidpw" />
+      <option name="METHOD_NAME" value="invalidUserNameandValidpw" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -329,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InvalidUserNameandInvalidpw.invalidUserNameandValidpw" />
         <item itemvalue="TestNG.VerifySearchActionbyName.verifySearchActionbyName" />
         <item itemvalue="TestNG.VerifyAddIntentwithQP.verifyAddIntentwithQP" />
         <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
         <item itemvalue="TestNG.SuccessfulLogin" />
-        <item itemvalue="TestNG.ActionNameMandatory" />
       </list>
     </recent_temporary>
   </component>
@@ -359,9 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuccessfulLogin - 2020.02.17 at 11h 42m 22s.xml">
-      <configuration name="SuccessfulLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SuccessfulLogin - 2020.02.17 at 11h 43m 20s.xml">
       <configuration name="SuccessfulLogin" configurationId="TestNG" />
     </history-entry>
@@ -389,12 +349,15 @@
     <history-entry file="VerifySearchActionbyName_verifySearchActionbyName - 2020.02.17 at 13h 29m 34s.xml">
       <configuration name="VerifySearchActionbyName.verifySearchActionbyName" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="InvalidUserNameandInvalidpw_invalidUserNameandValidpw - 2020.02.17 at 14h 06m 51s.xml">
+      <configuration name="InvalidUserNameandInvalidpw.invalidUserNameandValidpw" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22572039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22572039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,7 +366,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40503672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40503672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,16 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -639,20 +592,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="1110">
           <caret line="74" column="40" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -40,6 +40,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +61,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" />
         <option value="$PROJECT_DIR$/src/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/CreateAnAction.java" />
@@ -99,19 +127,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SuccessfulLogin">
+  <component name="RunManager" selected="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml">
     <configuration name="ActionNameMandatory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
@@ -291,9 +321,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
         <item itemvalue="TestNG.SuccessfulLogin" />
         <item itemvalue="TestNG.ActionNameMandatory" />
-        <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
         <item itemvalue="TestNG.VerifyActionNameMandatory.verifyanExistingGroupSelecting" />
         <item itemvalue="TestNG.VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" />
       </list>
@@ -321,9 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.02.06 at 13h 47m 16s.xml">
-      <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.02.06 at 13h 48m 16s.xml">
       <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
     </history-entry>
@@ -351,12 +378,15 @@
     <history-entry file="SuccessfulLogin - 2020.02.17 at 11h 44m 34s.xml">
       <configuration name="SuccessfulLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.17 at 11h 58m 30s.xml">
+      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28223574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35754824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,7 +404,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3488121" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32829374" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.44640234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,16 +420,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="This is my 1st commit of chat_bot Regression project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="12" selection-start-line="25" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -547,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="10" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -571,20 +584,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -615,6 +614,37 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 5, Errors: 0, Skipped: 3, Time elapsed: 94.684 s <<< FAILURE! - in TestSuite
+com.actions.chatbot.addactions.VerifyActionResetButton.setUp  Time elapsed: 10.342 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.addactions.VerifyActionResetButton.setUp(VerifyActionResetButton.java:31)
+
+com.actions.chatbot.searchactions.VerifyGenerateReport.setUp  Time elapsed: 0.181 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.searchactions.VerifyGenerateReport.setUp(VerifyGenerateReport.java:26)
+
+com.actions.chatbot.searchactions.VerifySearchActionbyName.setUp  Time elapsed: 4.655 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.searchactions.VerifySearchActionbyName.setUp(VerifySearchActionbyName.java:26)
+
+com.intents.chatbot.addintents.VerifyQuickIntentCreation.verifyQuickIntentCreation  Time elapsed: 3.138 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <span class="ui-button-text ui-c"> is not clickable at point (783,935) because another element <div id="j_idt286_modal" class="ui-widget-overlay ui-dialog-mask"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nilushi-trabeya', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 32749, moz:profile: /tmp/rust_mozprofileowsF0i, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb2fc01f-d6e7-4049-a5d7-052b90ca2ae6
+	at com.intents.chatbot.addintents.VerifyQuickIntentCreation.verifyQuickIntentCreation(VerifyQuickIntentCreation.java:70)
+
+com.actions.chatbot.searchactions.VerifyDeleteTextResponses.verifySearchActionbyName  Time elapsed: 15.552 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[contains(text(),'Play with your kids')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nilushi-trabeya', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 31480, moz:profile: /tmp/rust_mozprofileQ2Ywal, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 852a76af-81a3-4489-aaae-8fb7d7e14d1a
+*** Element info: {Using=xpath, value=//*[contains(text(),'Play with your kids')]}
+	at com.actions.chatbot.searchactions.VerifyDeleteTextResponses.verifySearchActionbyName(VerifyDeleteTextResponses.java:79)
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="classes">
+  <test thread-count="5" verbose="0" name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="com.actions.chatbot.addactions.VerifyActionResetButton">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyActionResetButton"/>
+        </methods>
+      </class> <!-- com.actions.chatbot.addactions.VerifyActionResetButton -->
+      <class name="com.actions.chatbot.searchactions.VerifySearchActionbyName">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifySearchActionbyName"/>
+        </methods>
+      </class> <!-- com.actions.chatbot.searchactions.VerifySearchActionbyName -->
+      <class name="com.intents.chatbot.addintents.VerifyQuickIntentCreation">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyQuickIntentCreation"/>
+        </methods>
+      </class> <!-- com.intents.chatbot.addintents.VerifyQuickIntentCreation -->
+      <class name="com.actions.chatbot.searchactions.VerifyGenerateReport">
+        <methods>
+          <include name="verifyGenerateReport"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.actions.chatbot.searchactions.VerifyGenerateReport -->
+      <class name="com.actions.chatbot.searchactions.VerifyDeleteTextResponses">
+        <methods>
+          <include name="verifySearchActionbyName"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.actions.chatbot.searchactions.VerifyDeleteTextResponses -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

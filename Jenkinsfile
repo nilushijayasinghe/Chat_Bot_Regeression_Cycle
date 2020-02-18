@@ -13,7 +13,7 @@ pipeline {
 
             stage('Testing stage'){
                 steps {
-                     sh 'mvn test'
+                     sh 'mvn test -Dwebdriver.type=chrome -Dwebdriver.chrome.driver=/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver'
                     }
                 }
 

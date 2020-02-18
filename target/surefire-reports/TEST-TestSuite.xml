@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="94.684" tests="23" errors="0" skipped="3" failures="5">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="E:/Workspace/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/test-classes:/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/classes:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/nilushi/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/nilushi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/nilushi/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/nilushi/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/nilushi/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/nilushi/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/nilushi/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/nilushi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/nilushi/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/nilushi/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/nilushi/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/nilushi/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/nilushi/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/jdk/jdk1.8.0_211/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/surefire/surefirebooter2415294124317001965.jar /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/surefire 2020-02-18T11-18-06_296-jvmRun1 surefire2280060647334410903tmp surefire_05560515697184979659tmp"/>
+    <property name="webdriver.type" value="chrome"/>
+    <property name="surefire.test.class.path" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/test-classes:/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/classes:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/nilushi/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/nilushi/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/nilushi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/nilushi/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/nilushi/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/nilushi/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/nilushi/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/nilushi/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/nilushi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/nilushi/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/nilushi/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/nilushi/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/nilushi/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/nilushi/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/nilushi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/opt/jdk/jdk1.8.0_211/jre"/>
+    <property name="basedir" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/target/surefire/surefirebooter2415294124317001965.jar"/>
+    <property name="sun.boot.class.path" value="/opt/jdk/jdk1.8.0_211/jre/lib/resources.jar:/opt/jdk/jdk1.8.0_211/jre/lib/rt.jar:/opt/jdk/jdk1.8.0_211/jre/lib/sunrsasign.jar:/opt/jdk/jdk1.8.0_211/jre/lib/jsse.jar:/opt/jdk/jdk1.8.0_211/jre/lib/jce.jar:/opt/jdk/jdk1.8.0_211/jre/lib/charsets.jar:/opt/jdk/jdk1.8.0_211/jre/lib/jfr.jar:/opt/jdk/jdk1.8.0_211/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="nilushi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.3.0-28-generic"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk/jdk1.8.0_211/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/nilushi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="/opt/jdk/jdk1.8.0_211/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="validUserNameandInvalidpw" classname="com.login.chatbot.ValidUserNameandInvalidpw" time="0.564"/>
+  <testcase name="invalidUserNameandValidpw" classname="com.login.chatbot.InvalidUserNameandInvalidpw" time="1.178"/>
+  <testcase name="invalidUserNameandValidpw" classname="com.login.chatbot.InvalidUserNameandValidpw" time="1.374"/>
+  <testcase name="successfulLogin" classname="com.login.chatbot.SuccessfulLogin" time="2.461"/>
+  <testcase name="createAnAction" classname="com.actions.chatbot.addactions.CreateAnAction" time="9.307"/>
+  <testcase name="setUp" classname="com.actions.chatbot.addactions.VerifyActionResetButton" time="10.342">
+    <failure message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.addactions.VerifyActionResetButton.setUp(VerifyActionResetButton.java:31)
+]]></failure>
+    <system-err><![CDATA[1582004920289	Marionette	INFO	Stopped listening on port 34645
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1582004921178	Marionette	INFO	Listening on port 43337
+1582004921191	Marionette	INFO	Listening on port 46335
+1582004921206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582004921220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582004921224	Marionette	INFO	Listening on port 38183
+1582004921255	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:18:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 18, 2020 11:18:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 18, 2020 11:18:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyActionResetButton" classname="com.actions.chatbot.addactions.VerifyActionResetButton" time="0">
+    <skipped message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe"/>
+  </testcase>
+  <testcase name="actionNameMandatory" classname="com.actions.chatbot.addactions.ActionNameMandatory" time="3.167"/>
+  <testcase name="setUp" classname="com.actions.chatbot.searchactions.VerifyGenerateReport" time="0.181">
+    <failure message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.searchactions.VerifyGenerateReport.setUp(VerifyGenerateReport.java:26)
+]]></failure>
+    <system-err><![CDATA[1582004926258	Marionette	INFO	Stopped listening on port 46335
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+1582004927164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004927164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004927164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004927164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582004927429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004927429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004927430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004927430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582004929375	Marionette	INFO	Listening on port 44459
+1582004929437	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:18:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1582004929891	Marionette	INFO	Listening on port 44163
+1582004929929	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:18:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyGenerateReport" classname="com.actions.chatbot.searchactions.VerifyGenerateReport" time="0">
+    <skipped message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe"/>
+  </testcase>
+  <testcase name="verifyActionNameUnique" classname="com.actions.chatbot.addactions.VerifyActionNameUnique" time="2.96"/>
+  <testcase name="DeleteanAction" classname="com.actions.chatbot.searchactions.DeleteanAction" time="5.311"/>
+  <testcase name="verifyGenerateExcel" classname="com.actions.chatbot.searchactions.VerifyGenerateExcel" time="0.586"/>
+  <testcase name="setUp" classname="com.actions.chatbot.searchactions.VerifySearchActionbyName" time="4.655">
+    <failure message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe
+	at com.actions.chatbot.searchactions.VerifySearchActionbyName.setUp(VerifySearchActionbyName.java:26)
+]]></failure>
+    <system-err><![CDATA[1582004936225	Marionette	INFO	Stopped listening on port 44459
+1582004936780	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582004937535	Marionette	INFO	Listening on port 42475
+1582004937557	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:18:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+1582004938550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004938550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004938550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004938550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+1582004940623	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH6XAVc"
+1582004941007	Marionette	INFO	Listening on port 33575
+1582004941099	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:19:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1582004941504	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582004941654	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewK4Qul"
+1582004942523	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582004943361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004943361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004943361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004943361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+1582004944254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004944255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004944255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004944255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582004945956	Marionette	INFO	Listening on port 33321
+1582004946045	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:19:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchActionbyName" classname="com.actions.chatbot.searchactions.VerifySearchActionbyName" time="0">
+    <skipped message="The driver executable does not exist: /home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/E:/Workspace/chromedriver.exe"/>
+  </testcase>
+  <testcase name="verifySearchActionbyName" classname="com.actions.chatbot.searchactions.VerifySearchActionbyAll" time="3.877"/>
+  <testcase name="verifyUpdateAction" classname="com.actions.chatbot.searchactions.VerifyUpdateAction" time="3.897"/>
+  <testcase name="verifyViewAction" classname="com.actions.chatbot.searchactions.VerifyViewAction" time="0.145"/>
+  <testcase name="verifyQuickIntentCreation" classname="com.intents.chatbot.addintents.VerifyQuickIntentCreation" time="3.138">
+    <failure message="Element &lt;span class=&quot;ui-button-text ui-c&quot;&gt; is not clickable at point (783,935) because another element &lt;div id=&quot;j_idt286_modal&quot; class=&quot;ui-widget-overlay ui-dialog-mask&quot;&gt; obscures it&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;nilushi-trabeya&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-28-generic&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 32749, moz:profile: /tmp/rust_mozprofileowsF0i, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fb2fc01f-d6e7-4049-a5d7-052b90ca2ae6" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <span class="ui-button-text ui-c"> is not clickable at point (783,935) because another element <div id="j_idt286_modal" class="ui-widget-overlay ui-dialog-mask"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nilushi-trabeya', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 32749, moz:profile: /tmp/rust_mozprofileowsF0i, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb2fc01f-d6e7-4049-a5d7-052b90ca2ae6
+	at com.intents.chatbot.addintents.VerifyQuickIntentCreation.verifyQuickIntentCreation(VerifyQuickIntentCreation.java:70)
+]]></failure>
+    <system-err><![CDATA[1582004961163	Marionette	INFO	Stopped listening on port 33993
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+1582004964081	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile51NieW"
+1582004964686	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582004966093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582004966093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582004966093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582004966093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582004968092	Marionette	INFO	Listening on port 38123
+1582004968194	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 18, 2020 11:19:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+JavaScript error: http://192.168.86.51:802/admin/javax.faces.resource/charts/charts.js.jsf?ln=primefaces&v=6.2, line 1: Error: No data specified
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddIntentwithQP" classname="com.intents.chatbot.addintents.VerifyAddIntentwithQP" time="10.385"/>
+  <testcase name="verifySearchActionbyName" classname="com.actions.chatbot.searchactions.VerifyDeleteTextResponses" time="15.552">
+    <failure message="Unable to locate element: //*[contains(text(),&apos;Play with your kids&apos;)]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;nilushi-trabeya&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-28-generic&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 31480, moz:profile: /tmp/rust_mozprofileQ2Ywal, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 852a76af-81a3-4489-aaae-8fb7d7e14d1a&#10;*** Element info: {Using=xpath, value=//*[contains(text(),&apos;Play with your kids&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[contains(text(),'Play with your kids')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nilushi-trabeya', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 31480, moz:profile: /tmp/rust_mozprofileQ2Ywal, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-28-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 852a76af-81a3-4489-aaae-8fb7d7e14d1a
+*** Element info: {Using=xpath, value=//*[contains(text(),'Play with your kids')]}
+	at com.actions.chatbot.searchactions.VerifyDeleteTextResponses.verifySearchActionbyName(VerifyDeleteTextResponses.java:79)
+]]></failure>
+    <system-err><![CDATA[1582004979623	Marionette	INFO	Stopped listening on port 36749
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+]]></system-err>
+  </testcase>
+  <testcase name="verifyanExistingGroupSelecting" classname="com.intents.chatbot.addintents.VerifyanExistingGroupSelecting" time="18.254"/>
+  <testcase name="verifyanExistingGroupSelecting" classname="com.intents.chatbot.addintents.VerifyActionNameMandatory" time="22.102"/>
+</testsuite>

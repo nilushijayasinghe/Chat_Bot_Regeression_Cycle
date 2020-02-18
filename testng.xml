@@ -5,36 +5,36 @@
     <test thread-count="5" name="Test1" parallel="classes">
         <classes>
 
-            <class name = "com.login.chatbot.InvalidUserNameandInvalidpw"/>
+            <!--<class name = "com.login.chatbot.InvalidUserNameandInvalidpw"/>-->
             <class name="com.login.chatbot.SuccessfulLogin"/>
-            <class name="com.login.chatbot.ValidUserNameandInvalidpw"/>
-            <class name="com.login.chatbot.InvalidUserNameandValidpw"/>
+            <!--<class name="com.login.chatbot.ValidUserNameandInvalidpw"/>
+            <class name="com.login.chatbot.InvalidUserNameandValidpw"/>-->
 
-            <class name="com.actions.chatbot.addactions.CreateAnAction"/>
-            <class name="com.actions.chatbot.addactions.ActionNameMandatory"/>
-            <class name="com.actions.chatbot.addactions.VerifyActionNameUnique"/>
-            <class name="com.actions.chatbot.addactions.VerifyActionResetButton"/>
+            <!-- <class name="com.actions.chatbot.addactions.CreateAnAction"/>
+             <class name="com.actions.chatbot.addactions.ActionNameMandatory"/>
+             <class name="com.actions.chatbot.addactions.VerifyActionNameUnique"/>
+             <class name="com.actions.chatbot.addactions.VerifyActionResetButton"/>
 
-            <class name="com.actions.chatbot.searchactions.DeleteanAction"/>
-            <class name="com.actions.chatbot.searchactions.VerifyGenerateExcel"/>
-            <class name="com.actions.chatbot.searchactions.VerifyGenerateReport"/>
-            <class name="com.actions.chatbot.searchactions.VerifyUpdateAction"/>
-            <class name="com.actions.chatbot.searchactions.VerifyDeleteTextResponses"/>
-            <class name="com.actions.chatbot.searchactions.VerifySearchActionbyAll"/>
-            <class name="com.actions.chatbot.searchactions.VerifySearchActionbyName"/>
-            <class name="com.actions.chatbot.searchactions.VerifyViewAction"/>
+             <class name="com.actions.chatbot.searchactions.DeleteanAction"/>
+             <class name="com.actions.chatbot.searchactions.VerifyGenerateExcel"/>
+             <class name="com.actions.chatbot.searchactions.VerifyGenerateReport"/>
+             <class name="com.actions.chatbot.searchactions.VerifyUpdateAction"/>
+             <class name="com.actions.chatbot.searchactions.VerifyDeleteTextResponses"/>
+             <class name="com.actions.chatbot.searchactions.VerifySearchActionbyAll"/>
+             <class name="com.actions.chatbot.searchactions.VerifySearchActionbyName"/>
+             <class name="com.actions.chatbot.searchactions.VerifyViewAction"/>
 
-            <class name="com.intents.chatbot.addintents.VerifyAddIntentwithQP"/>
-            <class name="com.intents.chatbot.addintents.VerifyQuickIntentCreation"/>
-            <class name="com.intents.chatbot.addintents.VerifyanExistingGroupSelecting"/>
-            <class name="com.intents.chatbot.addintents.VerifyActionNameMandatory"/>
+             <class name="com.intents.chatbot.addintents.VerifyAddIntentwithQP"/>
+             <class name="com.intents.chatbot.addintents.VerifyQuickIntentCreation"/>
+             <class name="com.intents.chatbot.addintents.VerifyanExistingGroupSelecting"/>
+             <class name="com.intents.chatbot.addintents.VerifyActionNameMandatory"/>-->
 
 
-            
-            
 
-        </classes>
-        
 
-    </test>
-</suite>
+
+         </classes>
+
+
+     </test>
+ </suite>

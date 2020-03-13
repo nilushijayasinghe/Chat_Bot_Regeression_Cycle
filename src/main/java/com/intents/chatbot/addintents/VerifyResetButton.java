@@ -1,23 +1,20 @@
 package com.intents.chatbot.addintents;
 
-import com.sun.org.apache.bcel.internal.generic.DREM;
 import org.openqa.selenium.By;
-import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class VerifyQuickIntentCreation {
+public class VerifyResetButton {
 
     private WebDriver driver;
 
     @BeforeClass(alwaysRun = true)
-    public void setUp() throws Exception{
+    public void setUp()throws Exception{
 
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
         driver = new ChromeDriver();
@@ -27,7 +24,8 @@ public class VerifyQuickIntentCreation {
     }
 
     @Test(alwaysRun = true)
-    public void verifyQuickIntentCreation()throws Exception{
+    public void verifyResetButton()throws Exception{
+
         driver.get("http://192.168.86.51:802/admin/login.jsf");
 
         driver.findElement(By.xpath("//input[@id='j_idt13:j_idt18']")).sendKeys("superuser");
@@ -42,9 +40,11 @@ public class VerifyQuickIntentCreation {
 
         Thread.sleep(3000);
 
-        driver.findElement(By.xpath("//li[@id='menuform:intent-quick-creation']//a")).click();
+        driver.findElement(By.xpath("//li[@id='menuform:addIntent']//a")).click();
 
-        driver.findElement(By.xpath("//input[@id='j_idt35:txtName']")).sendKeys("Laureate Park");
+        driver.findElement(By.xpath("//input[@id='j_idt34:txtName']")).sendKeys("Goddard School");
+
+        Thread.sleep(3000);
 
         driver.findElement(By.xpath("//div[@id='txtGroup']//span[@class='ui-icon ui-icon-triangle-1-s ui-c']")).click();
 
@@ -52,29 +52,37 @@ public class VerifyQuickIntentCreation {
 
         driver.findElement(By.xpath("//li[@id='txtGroup_2']")).click();
 
-        driver.findElement(By.xpath("//input[@id='tabs:cmpPattern:txtPattern']")).sendKeys("Laureate Park details");
+        Thread.sleep(3000);
 
-        driver.findElement(By.xpath("//button[@id='tabs:j_idt82:btnAdd']//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
+        driver.findElement(By.xpath("//input[@id='tabs:cmpPattern:txtPattern']")).sendKeys("What is Goddard School?");
+
+        driver.findElement(By.xpath("//button[@id='tabs:j_idt81:btnAdd']//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
 
         Thread.sleep(3000);
 
-        driver.findElement(By.xpath("//input[@id='tabs:cmpPattern:txtPattern']")).sendKeys("Parks in Lake Nona");
+        driver.findElement(By.xpath("//input[@id='tabs:cmpPattern:txtPattern']")).sendKeys("Where is Goddard School");
 
-        driver.findElement(By.xpath("//button[@id='tabs:j_idt82:btnAdd']//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
-
-        driver.findElement(By.xpath("//input[@id='cmpPattern:txtPattern']")).sendKeys("Brightly colored bungalows, townhomes, cottages and multi-story houses are complemented by modern design and technology features");
-
-        driver.findElement(By.xpath("//button[@id='j_idt141:btnAdd']//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
+        driver.findElement(By.xpath("//button[@id='tabs:j_idt81:btnAdd']//span[@class='ui-button-text ui-c'][contains(text(),'Add')]")).click();
 
         Thread.sleep(3000);
 
-        driver.findElement(By.xpath("//span[contains(text(),'Save')]")).click();
+        driver.findElement(By.xpath("//div[@id='cmpAutoActionResponse:autoActionResponse']//span[@class='ui-icon ui-icon-triangle-1-s ui-c']")).click();
+
+        driver.findElement(By.xpath("//li[@id='cmpAutoActionResponse:autoActionResponse_10']")).click();
+
+        Thread.sleep(3000);
+
+        driver.findElement(By.xpath("//span[contains(text(),'Reset')]")).click();
 
 
     }
 
     @AfterClass(alwaysRun = true)
     public void tearDown()throws Exception{
+
         driver.quit();
+
     }
+
+
 }

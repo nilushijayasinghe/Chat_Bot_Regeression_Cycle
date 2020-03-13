@@ -16,9 +16,6 @@ public class VerifyAddIntentwithQP {
     @BeforeClass(alwaysRun = true)
     public void setUp()throws Exception{
 
-        //System.setProperty("webdriver.gecko.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/geckodriver");
-        //driver = new FirefoxDriver();
-
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();

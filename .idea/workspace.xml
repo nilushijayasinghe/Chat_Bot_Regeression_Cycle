@@ -2,28 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271f6b36-8222-4e5d-a8ba-541e29f231d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyResetButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/ActionNameMandatory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/CreateAnAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/VerifyActionNameUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/VerifyActionResetButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/DeleteanAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyUpdateAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyViewAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyActionNameMandatory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyAddIntentwithQP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyQuickIntentCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/searchintents/VerifyDeleteIntent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandInvalidpw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandValidpw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/SuccessfulLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/ValidUserNameandInvalidpw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/DeleteanAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/DeleteanAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/ActionNameMandatory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/ActionNameMandatory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/VerifyActionNameUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/addactions/VerifyActionNameUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/DeleteanAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/DeleteanAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyGenerateReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifySearchActionbyName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyUpdateAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyUpdateAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyViewAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/actions/chatbot/searchactions/VerifyViewAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyActionNameMandatory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyActionNameMandatory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyAddIntentwithQP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyAddIntentwithQP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyQuickIntentCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyQuickIntentCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandInvalidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandInvalidpw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandValidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/InvalidUserNameandValidpw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/SuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/SuccessfulLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/login/chatbot/ValidUserNameandInvalidpw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/chatbot/ValidUserNameandInvalidpw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,10 +56,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="435">
+              <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="8" selection-end-line="38" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,40 +77,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="10" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="59" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="72" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyResetButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="133" />
+            <state relative-caret-position="1320">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="8" selection-start-line="35" selection-start-column="7" selection-end-line="39" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -107,16 +118,16 @@
         <option value="$PROJECT_DIR$/src/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/searchintents/VerifyDeleteIntent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/CreateAnAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionResetButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/CreateAnAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionResetButton.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/DeleteanAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateExcel.java" />
@@ -129,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyResetButton.java" />
       </list>
     </option>
   </component>
@@ -140,10 +152,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="321" />
+    <option name="y" value="328" />
+    <option name="width" value="1391" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,7 +219,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="addactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chat_Bot_Regeression_Cycle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chat_Bot_Regeression_Cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="addintents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chat_Bot_Regeression_Cycle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chat_Bot_Regeression_Cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="searchintents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,17 +273,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml">
-    <configuration name="ActionNameMandatory (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.VerifyResetButton (2)">
+    <configuration name="VerifyResetButton (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
-      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.ActionNameMandatory" />
+      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
+      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyResetButton" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -260,16 +291,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionNameMandatory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResetButton (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
-      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.ActionNameMandatory" />
+      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
+      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyResetButton" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -277,16 +308,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAnAction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResetButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.actions.chatbot.addactions.*" />
+          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.actions.chatbot.addactions" />
-      <option name="MAIN_CLASS_NAME" value="com.actions.chatbot.addactions.CreateAnAction" />
+      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
+      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyResetButton" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -294,27 +325,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResetButton.verifyResetButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.login.chatbot.*" />
+          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.login.chatbot" />
-      <option name="MAIN_CLASS_NAME" value="com.login.chatbot.SuccessfulLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
+      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyResetButton" />
+      <option name="METHOD_NAME" value="verifyResetButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chat_Bot_Regeression_Cycle" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intents.chatbot.addintents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intents.chatbot.addintents" />
+      <option name="MAIN_CLASS_NAME" value="com.intents.chatbot.addintents.VerifyanExistingGroupSelecting" />
+      <option name="METHOD_NAME" value="verifyanExistingGroupSelecting" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -323,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" />
-        <item itemvalue="TestNG.SuccessfulLogin" />
-        <item itemvalue="TestNG.ActionNameMandatory (1)" />
-        <item itemvalue="TestNG.ActionNameMandatory" />
-        <item itemvalue="TestNG.CreateAnAction" />
+        <item itemvalue="TestNG.VerifyResetButton (2)" />
+        <item itemvalue="TestNG.VerifyResetButton.verifyResetButton" />
+        <item itemvalue="TestNG.VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" />
+        <item itemvalue="TestNG.VerifyResetButton" />
+        <item itemvalue="TestNG.VerifyResetButton (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -353,42 +393,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.17 at 15h 50m 41s.xml">
-      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 14h 26m 05s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateAnAction - 2020.02.17 at 15h 50m 54s.xml">
-      <configuration name="CreateAnAction" configurationId="TestNG" />
+    <history-entry file="VerifyanExistingGroupSelecting_verifyanExistingGroupSelecting - 2020.03.13 at 14h 45m 41s.xml">
+      <configuration name="VerifyanExistingGroupSelecting.verifyanExistingGroupSelecting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateAnAction - 2020.02.17 at 15h 51m 29s.xml">
-      <configuration name="CreateAnAction" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 14h 48m 36s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateAnAction - 2020.02.17 at 15h 53m 03s.xml">
-      <configuration name="CreateAnAction" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 14h 52m 06s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ActionNameMandatory - 2020.02.17 at 16h 29m 18s.xml">
-      <configuration name="ActionNameMandatory" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 15h 04m 19s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.17 at 16h 32m 18s.xml">
-      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 15h 06m 57s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ActionNameMandatory - 2020.02.18 at 09h 17m 49s.xml">
-      <configuration name="ActionNameMandatory" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 15h 08m 31s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ActionNameMandatory_(1) - 2020.02.18 at 09h 18m 32s.xml">
-      <configuration name="ActionNameMandatory (1)" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 15h 09m 51s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.18 at 09h 32m 35s.xml">
-      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_verifyResetButton - 2020.03.13 at 16h 39m 23s.xml">
+      <configuration name="VerifyResetButton.verifyResetButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_nilushi_Documents_chatbot_Chat_Bot_Regeression_Cycle_testng_xml - 2020.02.18 at 10h 12m 01s.xml">
-      <configuration name="/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/testng.xml" configurationId="TestNG" />
+    <history-entry file="VerifyResetButton_(2) - 2020.03.13 at 16h 40m 24s.xml">
+      <configuration name="VerifyResetButton (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25290537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,16 +437,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40503672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4049676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3488121" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3477322" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.44596013" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.4438445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,10 +466,24 @@
     <entry file="file://$PROJECT_DIR$/Chat_Bot_Regeression_Cycle.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="10" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -438,8 +492,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandInvalidpw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/InvalidUserNameandValidpw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,8 +512,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/ValidUserNameandInvalidpw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -458,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/CreateAnAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="260">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -468,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionNameUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -478,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/VerifyActionResetButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="93">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -488,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/DeleteanAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyDeleteTextResponses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="152">
+          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -508,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -518,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyGenerateReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -528,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -538,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifySearchActionbyName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -548,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyUpdateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -558,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/searchactions/VerifyViewAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -568,38 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyActionNameMandatory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="94">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -613,41 +657,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/login/chatbot/SuccessfulLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyAddIntentwithQP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="405">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyQuickIntentCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="10" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="198">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="8" selection-end-line="38" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="8" selection-start-line="35" selection-start-column="7" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyanExistingGroupSelecting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="59" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="72" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/chatbot/addactions/ActionNameMandatory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intents/chatbot/addintents/VerifyResetButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="133" />
+        <state relative-caret-position="1320">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

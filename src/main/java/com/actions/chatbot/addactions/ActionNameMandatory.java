@@ -21,10 +21,6 @@ public class ActionNameMandatory {
     public void setUp() throws Exception{
 
         System.setProperty("webdriver.chrome.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/chromedriver");
-        //System.setProperty("webdriver.gecko.driver","/home/nilushi/Documents/chatbot/Chat_Bot_Regeression_Cycle/libs/geckodriver");
-        //driver = new FirefoxDriver();
-        //ChromeOptions options = new ChromeOptions();
-        //options.addArguments("headless");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
